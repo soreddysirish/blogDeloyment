@@ -1,0 +1,7 @@
+:concurrency: 1
+:logfile: ./log/sidekiq.log
+:queues:
+  - default
+  - mailers
+  - mysite_default
+  - mysite_mailers

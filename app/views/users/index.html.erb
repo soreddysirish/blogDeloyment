@@ -1,0 +1,6 @@
+<%= @name %>
+<% @users.each do |user| %>
+<% cache user do %>
+<p><%= render partial:'partials/users_list',locals: {user:user} %></p>
+<% end %>
+<% end %>
