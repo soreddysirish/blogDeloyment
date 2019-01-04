@@ -41,6 +41,12 @@ gem 'redis-namespace'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'capistrano', '~> 3.6'
+gem 'capistrano-rails', '~> 1.3'
+gem 'capistrano-chruby'
+gem 'capistrano-bundler', '~> 1.1', require: false
+gem 'capistrano-rvm',   '~> 0.1', require: false
+gem 'capistrano-passenger'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
