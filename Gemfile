@@ -49,6 +49,7 @@ group :development do
   #Add this if you"re using rbenv
   gem "capistrano-rbenv", "~> 2.1"
 end
+gem 'listen'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
